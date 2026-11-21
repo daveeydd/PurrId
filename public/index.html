@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PurrID | Smart Stray Animal Identification and Monitoring – Barangay Tinurik</title>
+<meta name="description" content="PurrID helps Barangay Tinurik, Tanauan City, Batangas identify, monitor, rescue and rehome stray animals.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+<meta name="theme-color" content="#3f2b1c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<div id="loader"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><ellipse cx="5.5" cy="11" rx="2" ry="2.6"/><ellipse cx="9.5" cy="6.5" rx="2" ry="2.8"/><ellipse cx="14.5" cy="6.5" rx="2" ry="2.8"/><ellipse cx="18.5" cy="11" rx="2" ry="2.6"/><path d="M12 11c-3 0-6 3.2-6 6 0 2 1.6 3 3.200 3 1.200 0 1.800-.5 2.800-.5s1.600.5 2.800.5c1.600 0 3.200-1 3.200-3 0-2.800-3-6-6-6z"/></svg><p>Loading PurrID…</p></div>
+<header class="nav"><a class="brand" href="#/"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><ellipse cx="5.5" cy="11" rx="2" ry="2.6"/><ellipse cx="9.5" cy="6.5" rx="2" ry="2.8"/><ellipse cx="14.5" cy="6.5" rx="2" ry="2.8"/><ellipse cx="18.5" cy="11" rx="2" ry="2.6"/><path d="M12 11c-3 0-6 3.2-6 6 0 2 1.6 3 3.200 3 1.200 0 1.800-.5 2.800-.5s1.600.5 2.800.5c1.600 0 3.200-1 3.200-3 0-2.800-3-6-6-6z"/></svg><span>Purr<b>ID</b></span></a>
+  <button id="burger" aria-label="Open menu" aria-expanded="false">☰</button><nav id="menu"></nav></header>
+<main id="app"></main>
+<div id="walk"></div>
+<footer>
+  <div class="foot"><div><h4>PurrID</h4><p>A smart stray animal identification and monitoring system for Barangay Tinurik, Tanauan City, Batangas.</p></div>
+  <div><h4>Explore</h4><a href="#/browse">Browse animals</a><a href="#/transparency">Donation transparency</a><a href="#/donate">Donate</a><a href="#/register">Create account</a><a href="#/login">Log in</a></div>
+  <div><h4>Contact</h4><p>Barangay Tinurik Hall<br>Tanauan City, Batangas</p></div></div>
+  <p class="copy">© <span id="yr"></span> PurrID. Every stray deserves a second chance.</p>
+</footer>
+<div id="toasts"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="/transparency.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

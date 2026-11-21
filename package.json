@@ -1,0 +1,1 @@
+{ "name": "purrid", "version": "1.0.0", "description": "PurrID: A Smart Stray Animal Identification and Monitoring System for Barangay Tinurik, Tanauan City, Batangas", "main": "server.js", "scripts": { "start": "node server.js" }, "engines": { "node": ">=22.5" }, "license": "UNLICENSED" }
